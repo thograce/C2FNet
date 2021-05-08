@@ -11,11 +11,6 @@
 
 - This repository provides code for "_**Context-aware Cross-level Fusion Network for Camouflaged Object Detection**_" IJCAI-2021. 
 
-### 1.1. :fire: NEWS :fire:
-
-- [2021/05/08] Release training/testing code.
-  
-
 ## 2. Overview
 
 ### 2.1. Introduction
@@ -54,8 +49,8 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     + downloading training dataset and move it into `./data/TrainDataset/`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1lODorfB33jbd-im-qrtUgWnZXxB94F55/view?usp=sharing).
     
-    + downloading pretrained weights and move it into `snapshots/PraNet_Res2Net/PraNet-19.pth`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1pUE99SUQHTLxS9rabLGe_XTDwfS6wXEw/view?usp=sharing).
+    + downloading pretrained weights and move it into `snapshots/C2FNet40/C2FNet-39.pth`, 
+    which can be found in this [download link (Google Drive)]().
     
     + downloading Res2Net weights [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
    
