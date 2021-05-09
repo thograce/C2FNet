@@ -30,8 +30,8 @@ The training and testing experiments are conducted using [PyTorch](https://githu
 a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 
 1. Configuring your environment (Prerequisites):
-   
-    Note that PraNet is only tested on Ubuntu OS with the following environments. 
+  
+    Note that C2FNet is only tested on Ubuntu OS with the following environments. 
     It may work on other operating systems as well but we do not guarantee that it will.
     
     + Creating a virtual environment in terminal: `conda create -n C2FNet python=3.6`.
@@ -44,9 +44,9 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1QEGnP9O7HbN_2tH999O3HRIsErIVYalx/view?usp=sharing).
     
     + downloading training dataset and move it into `./data/TrainDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1D9bf1KeeCJsxxri6d2qAC7z6O1X_fxpt/view?usp=sharing).
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1Kifp7I0n9dlWKXXNIbN7kgyokoRY4Yz7/view?usp=sharing).
     
-    + downloading pretrained weights and move it into `snapshots/C2FNet40/C2FNet-39.pth`, 
+    + downloading pretrained weights and move it into `checkpoints/C2FNet40/C2FNet-39.pth`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1owypj40dZjES8X0ex1QOHJox1NNBCgB-/view?usp=sharing).
     
     + downloading Res2Net weights [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
