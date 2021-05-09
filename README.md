@@ -14,13 +14,25 @@
 ## 2. Overview
 
 ### 2.1. Introduction
-Camouflaged object detection (COD) is a challenging task due to the low boundary contrast between the object and its surroundings. In addition, the appearance of camouflaged objects varies significantly, \eg, object size and shape, aggravating the difficulties of accurate COD. In this paper, we propose a novel Context-aware Cross-level Fusion Network (C2FNet) to address the challenging COD task.Specifically, we propose an Attention-induced Cross-level Fusion Module (ACFM) to integrate the multi-level features with informative attention coefficients. The fused features are then fed to the proposed Dual-branch Global Context Module (DGCM), which yields multi-scale feature representations for exploiting rich global context information. In C2FNet, the two modules are conducted on high-level features using a cascaded manner. Extensive experiments on three widely used benchmark datasets demonstrate that our C2FNet is an effective COD model and outperforms state-of-the-art models remarkably. 
+Camouflaged object detection (COD) is a challenging task due to the low boundary contrast between the object and its surroundings. In addition, the appearance of camouflaged objects varies significantly, e.g., object size and shape, aggravating the difficulties of accurate COD. In this paper, we propose a novel Context-aware Cross-level Fusion Network (C2FNet) to address the challenging COD task.Specifically, we propose an Attention-induced Cross-level Fusion Module (ACFM) to integrate the multi-level features with informative attention coefficients. The fused features are then fed to the proposed Dual-branch Global Context Module (DGCM), which yields multi-scale feature representations for exploiting rich global context information. In C2FNet, the two modules are conducted on high-level features using a cascaded manner. Extensive experiments on three widely used benchmark datasets demonstrate that our C2FNet is an effective COD model and outperforms state-of-the-art models remarkably. 
 
 ### 2.2. Framework Overview
 
+<p align="center">
+    <img src="Images/net.png"/> <br />
+    <em> 
+    Figure 1: The overall architecture of the proposed model, which consists of two key components, i.e. attention-induced cross-level fusion module and dual-branch global context module. See § 3 in the paper for details.
+    </em>
+</p>
 
 ### 2.3. Qualitative Results
 
+<p align="center">
+    <img src="Images/results.png"/> <br />
+    <em> 
+    Figure 2: Qualitative Results.
+    </em>
+</p>
 
 ## 3. Proposed Baseline
 
@@ -30,9 +42,6 @@ The training and testing experiments are conducted using [PyTorch](https://githu
 a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 
 1. Configuring your environment (Prerequisites):
-  
-    Note that C2FNet is only tested on Ubuntu OS with the following environments. 
-    It may work on other operating systems as well but we do not guarantee that it will.
     
     + Creating a virtual environment in terminal: `conda create -n C2FNet python=3.6`.
     
@@ -46,10 +55,10 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
     + downloading training dataset and move it into `./data/TrainDataset/`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1Kifp7I0n9dlWKXXNIbN7kgyokoRY4Yz7/view?usp=sharing).
     
-    + downloading pretrained weights and move it into `checkpoints/C2FNet40/C2FNet-39.pth`, 
+    + downloading pretrained weights and move it into `./checkpoints/C2FNet40/C2FNet-39.pth`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1owypj40dZjES8X0ex1QOHJox1NNBCgB-/view?usp=sharing).
     
-    + downloading Res2Net weights [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
+    + downloading Res2Net weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`[download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
    
 1. Training Configuration:
 
