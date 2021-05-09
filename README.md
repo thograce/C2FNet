@@ -1,4 +1,4 @@
-# C^2FNet: Context-aware Cross-level Fusion Network for Camouflaged Object Detection (IJCAI 2021)
+# C2FNet: Context-aware Cross-level Fusion Network for Camouflaged Object Detection (IJCAI 2021)
 
 > **Authors:** 
 > Yujia Sun,
@@ -14,7 +14,7 @@
 ## 2. Overview
 
 ### 2.1. Introduction
-Camouflaged object detection (COD) is a challenging task due to the low boundary contrast between the object and its surroundings. In addition, the appearance of camouflaged objects varies significantly, \eg, object size and shape, aggravating the difficulties of accurate COD. In this paper, we propose a novel Context-aware Cross-level Fusion Network (C^2FNet) to address the challenging COD task.Specifically, we propose an Attention-induced Cross-level Fusion Module (ACFM) to integrate the multi-level features with informative attention coefficients. The fused features are then fed to the proposed Dual-branch Global Context Module (DGCM), which yields multi-scale feature representations for exploiting rich global context information. In C^2FNet, the two modules are conducted on high-level features using a cascaded manner. Extensive experiments on three widely used benchmark datasets demonstrate that our C^2FNet is an effective COD model and outperforms state-of-the-art models remarkably. 
+Camouflaged object detection (COD) is a challenging task due to the low boundary contrast between the object and its surroundings. In addition, the appearance of camouflaged objects varies significantly, \eg, object size and shape, aggravating the difficulties of accurate COD. In this paper, we propose a novel Context-aware Cross-level Fusion Network (C2FNet) to address the challenging COD task.Specifically, we propose an Attention-induced Cross-level Fusion Module (ACFM) to integrate the multi-level features with informative attention coefficients. The fused features are then fed to the proposed Dual-branch Global Context Module (DGCM), which yields multi-scale feature representations for exploiting rich global context information. In C2FNet, the two modules are conducted on high-level features using a cascaded manner. Extensive experiments on three widely used benchmark datasets demonstrate that our C2FNet is an effective COD model and outperforms state-of-the-art models remarkably. 
 
 ### 2.2. Framework Overview
 
@@ -29,9 +29,6 @@ Camouflaged object detection (COD) is a challenging task due to the low boundary
 The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with 
 a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 
-> Note that our model also supports low memory GPU, which means you can lower the batch size
-
-
 1. Configuring your environment (Prerequisites):
    
     Note that PraNet is only tested on Ubuntu OS with the following environments. 
@@ -44,10 +41,10 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 1. Downloading necessary data:
 
     + downloading testing dataset and move it into `./data/TestDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/17FQbbvnKhNYbw8qsL7msx1tSP0cMV0no/view?usp=sharing).
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1QEGnP9O7HbN_2tH999O3HRIsErIVYalx/view?usp=sharing).
     
     + downloading training dataset and move it into `./data/TrainDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1lODorfB33jbd-im-qrtUgWnZXxB94F55/view?usp=sharing).
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1D9bf1KeeCJsxxri6d2qAC7z6O1X_fxpt/view?usp=sharing).
     
     + downloading pretrained weights and move it into `snapshots/C2FNet40/C2FNet-39.pth`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1owypj40dZjES8X0ex1QOHJox1NNBCgB-/view?usp=sharing).
@@ -57,15 +54,11 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 1. Training Configuration:
 
     + Assigning your costumed path, like `--train_save` and `--train_path` in `MyTrain.py`.
-    
-    + Just enjoy it!
 
 1. Testing Configuration:
 
     + After you download all the pre-trained model and testing dataset, just run `MyTest.py` to generate the final prediction map: 
     replace your trained model directory (`--pth_path`).
-    
-    + Just enjoy it!
 
 ### 3.2 Evaluating your trained model:
 
