@@ -50,7 +50,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1lODorfB33jbd-im-qrtUgWnZXxB94F55/view?usp=sharing).
     
     + downloading pretrained weights and move it into `snapshots/C2FNet40/C2FNet-39.pth`, 
-    which can be found in this [download link (Google Drive)]().
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1owypj40dZjES8X0ex1QOHJox1NNBCgB-/view?usp=sharing).
     
     + downloading Res2Net weights [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
    
@@ -72,7 +72,7 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
 One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
 please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in.
 
-> pre-computed map can be found in [download link]().
+> pre-computed map can be found in [download link](https://drive.google.com/file/d/1LTE85A4CtQm3mJ9Dqbh_CT4_3tmcStXQ/view?usp=sharing).
 
 
 ## 4. Citation
