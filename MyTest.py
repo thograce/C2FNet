@@ -8,7 +8,7 @@ from utils.dataloader import test_dataset
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--testsize', type=int, default=352, help='testing size')
-parser.add_argument('--pth_path', type=str, default='./snapshots/C2FNet/C2FNet-39.pth')
+parser.add_argument('--pth_path', type=str, default='./checkpoints/C2FNet40/C2FNet-39.pth')
 
 for _data_name in ['CAMO','CHAMELEON','COD10K']: #'CAMO','CHAMELEON','COD10K'
     data_path = './data/TestDataset/{}/'.format(_data_name)
