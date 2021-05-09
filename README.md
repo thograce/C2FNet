@@ -21,7 +21,7 @@ Camouflaged object detection (COD) is a challenging task due to the low boundary
 <p align="center">
     <img src="Images/net.png"/> <br />
     <em> 
-    Figure 1: The overall architecture of the proposed model, which consists of two key components, i.e. attention-induced cross-level fusion module and dual-branch global context module. See § 3 in the paper for details.
+    Figure 1: The overall architecture of the proposed model, which consists of two key components, i.e., attention-induced cross-level fusion module and dual-branch global context module. See § 3 in the paper for details.
     </em>
 </p>
 
@@ -45,7 +45,7 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
     
     + Creating a virtual environment in terminal: `conda create -n C2FNet python=3.6`.
     
-    + Installing necessary packages: PyTorch 1.3.1
+    + Installing necessary packages: `pip install -r requirements.txt`.
 
 1. Downloading necessary data:
 
