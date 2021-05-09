@@ -104,4 +104,3 @@ if __name__ == '__main__':
     for epoch in range(1, opt.epoch):
         adjust_lr(optimizer, opt.lr, epoch, opt.decay_rate, opt.decay_epoch)
         train(train_loader, model, optimizer, epoch)
-
