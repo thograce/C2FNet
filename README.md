@@ -1,4 +1,4 @@
-# C2FNet: Context-aware Cross-level Fusion Network for Camouflaged Object Detection (IJCAI 2021)
+# C^2FNet: Context-aware Cross-level Fusion Network for Camouflaged Object Detection (IJCAI 2021)
 
 > **Authors:** 
 > Yujia Sun,
@@ -14,7 +14,7 @@
 ## 2. Overview
 
 ### 2.1. Introduction
-
+Camouflaged object detection (COD) is a challenging task due to the low boundary contrast between the object and its surroundings. In addition, the appearance of camouflaged objects varies significantly, \eg, object size and shape, aggravating the difficulties of accurate COD. In this paper, we propose a novel Context-aware Cross-level Fusion Network (C^2FNet) to address the challenging COD task.Specifically, we propose an Attention-induced Cross-level Fusion Module (ACFM) to integrate the multi-level features with informative attention coefficients. The fused features are then fed to the proposed Dual-branch Global Context Module (DGCM), which yields multi-scale feature representations for exploiting rich global context information. In C^2FNet, the two modules are conducted on high-level features using a cascaded manner. Extensive experiments on three widely used benchmark datasets demonstrate that our C^2FNet is an effective COD model and outperforms state-of-the-art models remarkably. 
 
 ### 2.2. Framework Overview
 
@@ -27,7 +27,7 @@
 ### 3.1. Training/Testing
 
 The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with 
-a single GeForce RTX TITAN GPU of 24 GB Memory.
+a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 
 > Note that our model also supports low memory GPU, which means you can lower the batch size
 
@@ -37,9 +37,9 @@ a single GeForce RTX TITAN GPU of 24 GB Memory.
     Note that PraNet is only tested on Ubuntu OS with the following environments. 
     It may work on other operating systems as well but we do not guarantee that it will.
     
-    + Creating a virtual environment in terminal: `conda create -n SINet python=3.6`.
+    + Creating a virtual environment in terminal: `conda create -n C2FNet python=3.6`.
     
-    + Installing necessary packages: PyTorch 1.1
+    + Installing necessary packages: PyTorch 1.3.1
 
 1. Downloading necessary data:
 
