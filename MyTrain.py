@@ -57,7 +57,7 @@ def train(train_loader, model, optimizer, epoch):
                   '[lateral-3: {:.4f}]'.
                   format(datetime.now(), epoch, opt.epoch, i, total_step,
                          loss_record3.show()))
-    save_path = 'snapshots/{}/'.format(opt.train_save)
+    save_path = 'checkpoints/{}/'.format(opt.train_save)
     os.makedirs(save_path, exist_ok=True)
     if (epoch+1) % 5 == 0:
         torch.save(model.state_dict(), save_path + 'C2FNet-%d.pth' % epoch)
