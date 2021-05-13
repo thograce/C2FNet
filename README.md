@@ -56,7 +56,7 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1Kifp7I0n9dlWKXXNIbN7kgyokoRY4Yz7/view?usp=sharing).
     
     + downloading pretrained weights and move it into `./checkpoints/C2FNet40/C2FNet-39.pth`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1owypj40dZjES8X0ex1QOHJox1NNBCgB-/view?usp=sharing).
+    which can be found in this [download link (Google Drive)]().
     
     + downloading Res2Net weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`[download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
    
