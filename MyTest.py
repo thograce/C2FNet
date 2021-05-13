@@ -33,8 +33,7 @@ for _data_name in ['CAMO','CHAMELEON','COD10K']: #'CAMO','CHAMELEON','COD10K'
         gt /= (gt.max() + 1e-8)
         image = image.cuda()
 
-        s3 = model(image)
-        res = s3
+        res = model(image)
         res = F.upsample(res, size=gt.shape, mode='bilinear', align_corners=False)
         res = res.sigmoid().data.cpu().numpy().squeeze()
         res = (res - res.min()) / (res.max() - res.min() + 1e-8)
