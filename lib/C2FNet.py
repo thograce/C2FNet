@@ -185,9 +185,9 @@ class C2FNet(nn.Module):
         x3 = self.resnet.layer3(x2)  # bs, 1024, 22, 22
         x4 = self.resnet.layer4(x3)  # bs, 2048, 11, 11
 
-        x2_rfb = self.rfb2_1(x2)  # channel -> 32
-        x3_rfb = self.rfb3_1(x3)  # channel -> 32
-        x4_rfb = self.rfb4_1(x4)  # channel -> 32
+        x2_rfb = self.rfb2_1(x2)  # channel -> 64
+        x3_rfb = self.rfb3_1(x3)  # channel -> 64
+        x4_rfb = self.rfb4_1(x4)  # channel -> 64
 
         x43 = self.acfm3(x3_rfb, x4_rfb)
         out43 = self.upconv3(self.dgcm3(x43) + x43)
