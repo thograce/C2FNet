@@ -155,10 +155,10 @@ class C2FNet(nn.Module):
         self.rfb2_1 = RFB_modified(512, channel)
         self.rfb3_1 = RFB_modified(1024, channel)
         self.rfb4_1 = RFB_modified(2048, channel)
-        # ---AFF,MSCAM---
+
         self.acfm3 = ACFM()
         self.acfm2 = ACFM()
-        #SIM
+	
         self.dgcm3 = DGCM()
         self.dgcm2 = DGCM()
 
