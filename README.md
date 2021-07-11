@@ -74,7 +74,7 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
 please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in.
 
-> pre-computed map can be found in [download link](https://drive.google.com/file/d/1k87QdBEydItlnEa0QpgFViWV_WqBAYdo/view?usp=sharing).
+> pre-computed map can be found in [download link](https://drive.google.com/file/d/1l_qaEOWNaZVyEu7rk9K_C9Pcuicay0uk/view?usp=sharing).
 
 
 ## 4. Citation
