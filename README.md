@@ -59,10 +59,6 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1zG7FjmYwpSagjXG3yhLUA5sjlvEvQvJl/view?usp=sharing).
     
     + downloading Res2Net weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`[download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
-   
-1. Training Configuration:
-
-    + Assigning your costumed path, like `--train_save` and `--train_path` in `MyTrain.py`.
 
 1. Testing Configuration:
 
