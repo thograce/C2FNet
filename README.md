@@ -60,6 +60,11 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
     
     + downloading Res2Net weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`[download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
 
+1. Training Configuration:
+
+    + Assigning your costumed path, like `--train_save` and `--train_path` in `MyTrain.py`.
+    + I modif the total epochs and the learning rate decay method, so there are differences from the training setup reported in the paper. Under the new settings, the training performance is more stable.
+
 1. Testing Configuration:
 
     + After you download all the pre-trained model and testing dataset, just run `MyTest.py` to generate the final prediction map: 
@@ -76,5 +81,12 @@ please follow this the instructions in `./eval/main.m` and just run it to genera
 ## 4. Citation
 
 Please cite our paper if you find the work useful: 
+
+	@inproceedings{sun2021c2fnet,
+	title={Context-aware Cross-level Fusion Network for Camouflaged Object Detection},
+	author={Sun, Yujia and Chen, Geng and Zhou, Tao and Zhang, Yi and Liu, Nian},
+	booktitle={IJCAI},
+	year={2021}
+	}
 
 **[⬆ back to top](#0-preface)**
