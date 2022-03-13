@@ -17,10 +17,10 @@ def clip_gradient(optimizer, grad_clip):
                 param.grad.data.clamp_(-grad_clip, grad_clip)
 
 
-def adjust_lr(optimizer, init_lr, epoch, decay_rate=0.1, decay_epoch=30):
-    decay = decay_rate ** (epoch // decay_epoch)
+def poly_lr(optimizer, init_lr, curr_iter, max_iter, power=0.9):
+    lr = init_lr * (1 - float(curr_iter) / max_iter) ** power
     for param_group in optimizer.param_groups:
-        param_group['lr'] *= decay
+        param_group['lr'] = lr
 
 
 class AvgMeter(object):
