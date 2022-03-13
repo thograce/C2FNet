@@ -75,8 +75,10 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
 please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in.
 
-If you want to speed up the evaluation on GPU, you just need to use the efficient tool [link](https://github.com/DengPingFan/CODToolbox) by `pip install pysodmetrics`.
+If you want to speed up the evaluation on GPU, you just need to use the efficient tool [link](https://github.com/lartpang/PySODMetrics) by `pip install pysodmetrics`.
+
 Assigning your costumed path, like `method`, `mask_root` and `pred_root` in `eval.py`.
+
 Just run `eval.py` to evaluate the trained model.
 
 > pre-computed map can be found in [download link](https://drive.google.com/file/d/1l_qaEOWNaZVyEu7rk9K_C9Pcuicay0uk/view?usp=sharing).
