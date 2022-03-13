@@ -63,7 +63,7 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 1. Training Configuration:
 
     + Assigning your costumed path, like `--train_save` and `--train_path` in `MyTrain.py`.
-    + I modif the total epochs and the learning rate decay method, so there are differences from the training setup reported in the paper. Under the new settings, the training performance is more stable.
+    + I modify the total epochs and the learning rate decay method (lib/utils.py has been updated), so there are differences from the training setup reported in the paper. Under the new settings, the training performance is more stable.
 
 1. Testing Configuration:
 
