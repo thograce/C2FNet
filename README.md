@@ -50,7 +50,7 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
 1. Downloading necessary data:
 
     + downloading testing dataset and move it into `./data/TestDataset/`, 
-    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1QEGnP9O7HbN_2tH999O3HRIsErIVYalx/view?usp=sharing).
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1SLRB5Wg1Hdy7CQ74s3mTQ3ChhjFRSFdZ/view?usp=sharing).
     
     + downloading training dataset and move it into `./data/TrainDataset/`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1Kifp7I0n9dlWKXXNIbN7kgyokoRY4Yz7/view?usp=sharing).
@@ -92,6 +92,7 @@ Please cite our paper if you find the work useful:
 	title={Context-aware Cross-level Fusion Network for Camouflaged Object Detection},
 	author={Sun, Yujia and Chen, Geng and Zhou, Tao and Zhang, Yi and Liu, Nian},
 	booktitle={IJCAI},
+	pages = "1025--1031"
 	year={2021}
 	}
 
