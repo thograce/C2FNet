@@ -92,7 +92,7 @@ Please cite our paper if you find the work useful:
 	title={Context-aware Cross-level Fusion Network for Camouflaged Object Detection},
 	author={Sun, Yujia and Chen, Geng and Zhou, Tao and Zhang, Yi and Liu, Nian},
 	booktitle={IJCAI},
-	pages = "1025--1031"
+	pages = "1025--1031",
 	year={2021}
 	}
 
