@@ -10,7 +10,7 @@
 ## 1. Preface
 
 - This repository provides code for "_**Context-aware Cross-level Fusion Network for Camouflaged Object Detection**_" IJCAI-2021. [![Arxiv Page](https://img.shields.io/badge/Arxiv-2105.12555-red?style=flat-square)](https://arxiv.org/abs/2105.12555)
-- The journal extension version of our paper is accepted at IEEE TCSVT 2022 ([GitHub](https://github.com/Ben57882/C2FNet-TSCVT)).
+- The journal extension version of our paper is accepted at IEEE TCSVT 2022 ([Paper](https://arxiv.org/abs/2207.13362) | [GitHub](https://github.com/Ben57882/C2FNet-TSCVT)).
 
 ## 2. Overview
 
