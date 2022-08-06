@@ -10,6 +10,7 @@
 ## 1. Preface
 
 - This repository provides code for "_**Context-aware Cross-level Fusion Network for Camouflaged Object Detection**_" IJCAI-2021. [![Arxiv Page](https://img.shields.io/badge/Arxiv-2105.12555-red?style=flat-square)](https://arxiv.org/abs/2105.12555)
+- The journal extension version of our paper is accepted at IEEE TCSVT 2022 ([GitHub](https://github.com/Ben57882/C2FNet-TSCVT)).
 
 ## 2. Overview
 
@@ -58,7 +59,8 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
     + downloading pretrained weights and move it into `./checkpoints/C2FNet40/C2FNet-39.pth`, 
     which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1zG7FjmYwpSagjXG3yhLUA5sjlvEvQvJl/view?usp=sharing).
     
-    + downloading Res2Net weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`[download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
+    + downloading Res2Net weights and move it into `./models/res2net50_v1b_26w_4s-3cf99910.pth`,
+    which can be found in this [download link (Google Drive)](https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing).
 
 1. Training Configuration:
 
@@ -94,6 +96,14 @@ Please cite our paper if you find the work useful:
 	booktitle={IJCAI},
 	pages = "1025--1031",
 	year={2021}
+	}
+	
+	@article{chen2022camouflaged,
+	title={Camouflaged Object Detection via Context-aware Cross-level Fusion},
+	author={Chen, Geng and Liu, Si-Jie and Sun, Yu-Jia and Ji, Ge-Peng and Wu, Ya-Feng and Zhou, Tao},
+	journal={IEEE Transactions on Circuits and Systems for Video Technology},
+	year={2022},
+	publisher={IEEE}
 	}
 
 **[⬆ back to top](#1-preface)**
