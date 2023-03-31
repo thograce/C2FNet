@@ -12,6 +12,7 @@
 - This repository provides code for "_**Context-aware Cross-level Fusion Network for Camouflaged Object Detection**_" IJCAI-2021. [![Arxiv Page](https://img.shields.io/badge/Arxiv-2105.12555-red?style=flat-square)](https://arxiv.org/abs/2105.12555)
 - The journal extension version of our paper is accepted at IEEE TCSVT 2022 ([Paper](https://arxiv.org/abs/2207.13362) | [GitHub](https://github.com/Ben57882/C2FNet-TSCVT)).
 
+<!---
 ## 2. Overview
 
 ### 2.1. Introduction
@@ -34,10 +35,11 @@ Camouflaged object detection (COD) is a challenging task due to the low boundary
     Figure 2: Qualitative Results.
     </em>
 </p>
+-->
 
-## 3. Proposed Baseline
+## 2. Proposed Baseline
 
-### 3.1. Training/Testing
+### 2.1. Training/Testing
 
 The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with 
 a single NVIDIA Tesla P40 GPU of 24 GB Memory.
@@ -72,7 +74,7 @@ a single NVIDIA Tesla P40 GPU of 24 GB Memory.
     + After you download all the pre-trained model and testing dataset, just run `MyTest.py` to generate the final prediction map: 
     replace your trained model directory (`--pth_path`).
 
-### 3.2 Evaluating your trained model:
+### 2.2 Evaluating your trained model:
 
 One-key evaluation is written in MATLAB code (revised from [link](https://github.com/DengPingFan/CODToolbox)), 
 please follow this the instructions in `./eval/main.m` and just run it to generate the evaluation results in.
@@ -86,7 +88,7 @@ Just run `eval.py` to evaluate the trained model.
 > pre-computed map can be found in [download link](https://drive.google.com/file/d/1l_qaEOWNaZVyEu7rk9K_C9Pcuicay0uk/view?usp=sharing).
 
 
-## 4. Citation
+## 3. Citation
 
 Please cite our paper if you find the work useful: 
 
