@@ -108,4 +108,9 @@ Please cite our paper if you find the work useful:
 	publisher={IEEE}
 	}
 
+## 4. License
+
+The source code is free for research and education use only. Any commercial usage should get formal permission first.
+
+
 **[⬆ back to top](#1-preface)**
